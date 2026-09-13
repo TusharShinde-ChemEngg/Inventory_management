@@ -565,7 +565,7 @@ function Login() {
             <div className="company-logo">
 
               <img
-                src="/chemengg-logo.png"
+                src={`${import.meta.env.BASE_URL}chemengg-logo.png`}
                 alt="ChemEngg Research"
               />
 
